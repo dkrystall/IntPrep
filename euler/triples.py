@@ -1,7 +1,7 @@
+#Question 9
 def findTriples(total):
     searching = True
     while searching:
-
         for a in range(1,total):
             if a is total-1:
                 print("Number not found")
@@ -9,7 +9,8 @@ def findTriples(total):
             for b in range(a,total):
                 if not searching:
                     break
-                for c in range(b, total):
+                c=total-(a+b)
+                if(c > b):
                     aSquared = a*a
                     bSquared = b*b
                     cSquared = c*c
