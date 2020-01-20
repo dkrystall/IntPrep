@@ -21,7 +21,6 @@ def largestPrimeFactor(mysteryNumber):
     print("Mystery Number is:", mysteryNumber)
     if mysteryNumber%2 is 0:    
         for i in range(2, int(mysteryNumber/2)):
-            #print(i)
             if mysteryNumber == i:
                 continue
             if not mysteryNumber % i:
@@ -30,7 +29,6 @@ def largestPrimeFactor(mysteryNumber):
 
     if mysteryNumber%2 is not 0:
         for i in range(2, int(mysteryNumber/2+1)):
-            #print(i)
             if mysteryNumber == i:
                 print(i, mysteryNumber)
                 continue

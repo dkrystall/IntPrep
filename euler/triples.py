@@ -15,4 +15,4 @@ def findTriples(total):
                             print("Answer found!")
                             print("Product of a,b,c is: ",a*b*c)
                             return a*b*c
-findTriples(1000)
+findTriples(4)
