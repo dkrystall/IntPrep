@@ -25,4 +25,4 @@ sieve_of_erathosthenes(1000000)
 def find_nth_prime(n):
     return primes[n]
 
-print(find_nth_prime(6))
+print(find_nth_prime(10001))
